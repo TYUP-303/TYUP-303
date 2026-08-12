@@ -1,0 +1,63 @@
+{
+  "version": 2,
+  "device": "SSAFY",
+  "updatedAt": "2026-08-12T04:33:59.248Z",
+  "totals": {
+    "totalTokens": 69149913,
+    "inputTokens": 7687,
+    "outputTokens": 373922,
+    "cacheCreationTokens": 860161,
+    "cacheReadTokens": 67908143,
+    "totalCost": 99.45020100000004
+  },
+  "daily": [
+    {
+      "period": "2026-08-11",
+      "totalTokens": 2973191,
+      "inputTokens": 706,
+      "outputTokens": 24321,
+      "cacheCreationTokens": 247210,
+      "cacheReadTokens": 2700954,
+      "totalCost": 4.434132,
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-opus-5",
+          "cost": 4.434132,
+          "totalTokens": 0,
+          "inputTokens": 706,
+          "outputTokens": 24321,
+          "cacheCreationTokens": 247210,
+          "cacheReadTokens": 2700954,
+          "totalCost": 0
+        }
+      ]
+    },
+    {
+      "period": "2026-08-12",
+      "totalTokens": 66176722,
+      "inputTokens": 6981,
+      "outputTokens": 349601,
+      "cacheCreationTokens": 612951,
+      "cacheReadTokens": 65207189,
+      "totalCost": 95.01606900000003,
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-fable-5",
+          "cost": 95.01606900000003,
+          "totalTokens": 0,
+          "inputTokens": 6981,
+          "outputTokens": 349601,
+          "cacheCreationTokens": 612951,
+          "cacheReadTokens": 65207189,
+          "totalCost": 0
+        }
+      ]
+    }
+  ],
+  "toolDaily": {
+    "Codex": {},
+    "Gemini": {},
+    "Copilot": {}
+  },
+  "toolLegacy": {}
+}
