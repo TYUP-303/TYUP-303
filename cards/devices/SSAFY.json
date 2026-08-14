@@ -1,14 +1,14 @@
 {
   "version": 2,
   "device": "SSAFY",
-  "updatedAt": "2026-08-13T03:50:08.211Z",
+  "updatedAt": "2026-08-14T03:50:07.004Z",
   "totals": {
-    "totalTokens": 87024714,
-    "inputTokens": 7741,
-    "outputTokens": 415290,
-    "cacheCreationTokens": 916488,
-    "cacheReadTokens": 85685195,
-    "totalCost": 120.42273300000008
+    "totalTokens": 114633610,
+    "inputTokens": 9187,
+    "outputTokens": 895943,
+    "cacheCreationTokens": 2843268,
+    "cacheReadTokens": 110885212,
+    "totalCost": 159.79128890000007
   },
   "daily": [
     {
@@ -49,6 +49,47 @@
           "outputTokens": 390969,
           "cacheCreationTokens": 669278,
           "cacheReadTokens": 82984241,
+          "totalCost": 0
+        }
+      ]
+    },
+    {
+      "period": "2026-08-14",
+      "totalTokens": 27608896,
+      "inputTokens": 1446,
+      "outputTokens": 480653,
+      "cacheCreationTokens": 1926780,
+      "cacheReadTokens": 25200017,
+      "totalCost": 39.36855589999999,
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-fable-5",
+          "cost": 25.00124400000001,
+          "totalTokens": 0,
+          "inputTokens": 158,
+          "outputTokens": 137719,
+          "cacheCreationTokens": 232921,
+          "cacheReadTokens": 13455294,
+          "totalCost": 0
+        },
+        {
+          "modelName": "claude-opus-5",
+          "cost": 10.1114545,
+          "totalTokens": 0,
+          "inputTokens": 118,
+          "outputTokens": 122015,
+          "cacheCreationTokens": 244033,
+          "cacheReadTokens": 9240319,
+          "totalCost": 0
+        },
+        {
+          "modelName": "claude-haiku-4-5-20251001",
+          "cost": 4.2558574,
+          "totalTokens": 0,
+          "inputTokens": 1170,
+          "outputTokens": 220919,
+          "cacheCreationTokens": 1449826,
+          "cacheReadTokens": 2504404,
           "totalCost": 0
         }
       ]
