@@ -1,14 +1,14 @@
 {
   "version": 2,
   "device": "MacBookAir15",
-  "updatedAt": "2026-08-16T22:00:12.765Z",
+  "updatedAt": "2026-08-17T23:01:08.747Z",
   "totals": {
-    "totalTokens": 2706138639,
-    "inputTokens": 987532,
-    "outputTokens": 14259806,
-    "cacheCreationTokens": 70162016,
-    "cacheReadTokens": 2620729285,
-    "totalCost": 3015.0777608000017
+    "totalTokens": 2746853136,
+    "inputTokens": 987848,
+    "outputTokens": 14455104,
+    "cacheCreationTokens": 71799016,
+    "cacheReadTokens": 2659611168,
+    "totalCost": 3067.2683515500016
   },
   "daily": [
     {
@@ -705,31 +705,31 @@
     },
     {
       "period": "2026-08-17",
-      "totalTokens": 51499994,
-      "inputTokens": 418,
-      "outputTokens": 258329,
-      "cacheCreationTokens": 632892,
-      "cacheReadTokens": 50608355,
-      "totalCost": 48.30525674999999,
+      "totalTokens": 92214491,
+      "inputTokens": 734,
+      "outputTokens": 453627,
+      "cacheCreationTokens": 2269892,
+      "cacheReadTokens": 89490238,
+      "totalCost": 100.49584749999991,
       "modelBreakdowns": [
         {
           "modelName": "claude-opus-5",
-          "cost": 24.28015075,
+          "cost": 50.33510549999998,
           "totalTokens": 0,
-          "inputTokens": 340,
-          "outputTokens": 211237,
-          "cacheCreationTokens": 541384,
-          "cacheReadTokens": 30768789,
+          "inputTokens": 616,
+          "outputTokens": 375201,
+          "cacheCreationTokens": 1522475,
+          "cacheReadTokens": 58200316,
           "totalCost": 0
         },
         {
           "modelName": "claude-fable-5",
-          "cost": 24.025106,
+          "cost": 50.16074200000001,
           "totalTokens": 0,
-          "inputTokens": 78,
-          "outputTokens": 47092,
-          "cacheCreationTokens": 91508,
-          "cacheReadTokens": 19839566,
+          "inputTokens": 118,
+          "outputTokens": 78426,
+          "cacheCreationTokens": 747417,
+          "cacheReadTokens": 31289922,
           "totalCost": 0
         }
       ]
