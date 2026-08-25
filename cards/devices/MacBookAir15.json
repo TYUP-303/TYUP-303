@@ -1,14 +1,14 @@
 {
   "version": 2,
   "device": "MacBookAir15",
-  "updatedAt": "2026-08-24T22:10:31.633Z",
+  "updatedAt": "2026-08-25T22:00:49.687Z",
   "totals": {
-    "totalTokens": 3378896475,
-    "inputTokens": 994368,
-    "outputTokens": 18102075,
-    "cacheCreationTokens": 86686877,
-    "cacheReadTokens": 3273113155,
-    "totalCost": 3686.187030300002
+    "totalTokens": 3530809544,
+    "inputTokens": 1006193,
+    "outputTokens": 18932373,
+    "cacheCreationTokens": 90182701,
+    "cacheReadTokens": 3420688277,
+    "totalCost": 3813.682303450002
   },
   "daily": [
     {
@@ -886,6 +886,37 @@
           "outputTokens": 3377,
           "cacheCreationTokens": 40803,
           "cacheReadTokens": 147499,
+          "totalCost": 0
+        }
+      ]
+    },
+    {
+      "period": "2026-08-25",
+      "totalTokens": 151913069,
+      "inputTokens": 11825,
+      "outputTokens": 830298,
+      "cacheCreationTokens": 3495824,
+      "cacheReadTokens": 147575122,
+      "totalCost": 127.49527315000005,
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-opus-5",
+          "cost": 127.19335275000005,
+          "totalTokens": 0,
+          "inputTokens": 1184,
+          "outputTokens": 829195,
+          "cacheCreationTokens": 3323538,
+          "cacheReadTokens": 146871053,
+          "totalCost": 0
+        },
+        {
+          "modelName": "claude-haiku-4-5-20251001",
+          "cost": 0.3019204000000001,
+          "totalTokens": 0,
+          "inputTokens": 10641,
+          "outputTokens": 1103,
+          "cacheCreationTokens": 172286,
+          "cacheReadTokens": 704069,
           "totalCost": 0
         }
       ]
