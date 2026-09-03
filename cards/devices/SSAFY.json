@@ -1,14 +1,14 @@
 {
   "version": 2,
   "device": "SSAFY",
-  "updatedAt": "2026-09-02T07:37:03.626Z",
+  "updatedAt": "2026-09-03T03:00:12.172Z",
   "totals": {
-    "totalTokens": 975719401,
-    "inputTokens": 46865,
-    "outputTokens": 4635671,
-    "cacheCreationTokens": 22960328,
-    "cacheReadTokens": 948076537,
-    "totalCost": 723.4167707999995
+    "totalTokens": 988872189,
+    "inputTokens": 47127,
+    "outputTokens": 4759897,
+    "cacheCreationTokens": 23634190,
+    "cacheReadTokens": 960430975,
+    "totalCost": 739.4395697999995
   },
   "daily": [
     {
@@ -405,21 +405,21 @@
     },
     {
       "period": "2026-09-02",
-      "totalTokens": 1208651,
-      "inputTokens": 34,
-      "outputTokens": 13474,
-      "cacheCreationTokens": 155564,
-      "cacheReadTokens": 1039579,
-      "totalCost": 1.8609649000000004,
+      "totalTokens": 9838327,
+      "inputTokens": 192,
+      "outputTokens": 81126,
+      "cacheCreationTokens": 561499,
+      "cacheReadTokens": 9195510,
+      "totalCost": 11.6903704,
       "modelBreakdowns": [
         {
           "modelName": "claude-opus-5",
-          "cost": 1.4933085000000001,
+          "cost": 11.322714,
           "totalTokens": 0,
-          "inputTokens": 28,
-          "outputTokens": 9778,
-          "cacheCreationTokens": 79946,
-          "cacheReadTokens": 898517,
+          "inputTokens": 186,
+          "outputTokens": 77430,
+          "cacheCreationTokens": 485881,
+          "cacheReadTokens": 9054448,
           "totalCost": 0
         },
         {
@@ -433,11 +433,33 @@
           "totalCost": 0
         }
       ]
+    },
+    {
+      "period": "2026-09-03",
+      "totalTokens": 4523112,
+      "inputTokens": 104,
+      "outputTokens": 56574,
+      "cacheCreationTokens": 267927,
+      "cacheReadTokens": 4198507,
+      "totalCost": 6.193393500000001,
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-opus-5",
+          "cost": 6.193393500000001,
+          "totalTokens": 0,
+          "inputTokens": 104,
+          "outputTokens": 56574,
+          "cacheCreationTokens": 267927,
+          "cacheReadTokens": 4198507,
+          "totalCost": 0
+        }
+      ]
     }
   ],
   "toolDaily": {
     "Gemini": {},
-    "Copilot": {}
+    "Copilot": {},
+    "Codex": {}
   },
   "toolLegacy": {}
 }
