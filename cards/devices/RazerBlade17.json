@@ -1,14 +1,14 @@
 {
   "version": 2,
   "device": "RazerBlade17",
-  "updatedAt": "2026-09-04T01:30:35.265Z",
+  "updatedAt": "2026-09-04T12:00:18.327Z",
   "totals": {
-    "totalTokens": 89890882,
-    "inputTokens": 6157,
-    "outputTokens": 789685,
-    "cacheCreationTokens": 4391842,
-    "cacheReadTokens": 84703198,
-    "totalCost": 109.54432544999997
+    "totalTokens": 97172206,
+    "inputTokens": 7445,
+    "outputTokens": 828419,
+    "cacheCreationTokens": 4597615,
+    "cacheReadTokens": 91738727,
+    "totalCost": 116.08287929999997
   },
   "daily": [
     {
@@ -163,6 +163,37 @@
           "outputTokens": 171272,
           "cacheCreationTokens": 650302,
           "cacheReadTokens": 26561361,
+          "totalCost": 0
+        }
+      ]
+    },
+    {
+      "period": "2026-09-04",
+      "totalTokens": 7281324,
+      "inputTokens": 1288,
+      "outputTokens": 38734,
+      "cacheCreationTokens": 205773,
+      "cacheReadTokens": 7035529,
+      "totalCost": 6.538553850000002,
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-fable-5-1",
+          "cost": 5.986720250000001,
+          "totalTokens": 0,
+          "inputTokens": 1258,
+          "outputTokens": 30970,
+          "cacheCreationTokens": 148704,
+          "cacheReadTokens": 5806241,
+          "totalCost": 0
+        },
+        {
+          "modelName": "claude-sonnet-5",
+          "cost": 0.5518336000000001,
+          "totalTokens": 0,
+          "inputTokens": 30,
+          "outputTokens": 7764,
+          "cacheCreationTokens": 57069,
+          "cacheReadTokens": 1229288,
           "totalCost": 0
         }
       ]
