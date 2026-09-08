@@ -1,14 +1,14 @@
 {
   "version": 2,
   "device": "SSAFY",
-  "updatedAt": "2026-09-07T03:00:17.831Z",
+  "updatedAt": "2026-09-08T03:00:17.041Z",
   "totals": {
-    "totalTokens": 991225401,
-    "inputTokens": 47169,
-    "outputTokens": 4776439,
-    "cacheCreationTokens": 23905531,
-    "cacheReadTokens": 962496262,
-    "totalCost": 743.5993832999995
+    "totalTokens": 993419605,
+    "inputTokens": 47229,
+    "outputTokens": 4788617,
+    "cacheCreationTokens": 24010503,
+    "cacheReadTokens": 964573256,
+    "totalCost": 745.9923502999995
   },
   "daily": [
     {
@@ -457,21 +457,42 @@
     },
     {
       "period": "2026-09-07",
-      "totalTokens": 687736,
-      "inputTokens": 18,
-      "outputTokens": 6094,
-      "cacheCreationTokens": 60239,
-      "cacheReadTokens": 621385,
-      "totalCost": 1.0655225,
+      "totalTokens": 1668774,
+      "inputTokens": 48,
+      "outputTokens": 9810,
+      "cacheCreationTokens": 101921,
+      "cacheReadTokens": 1556995,
+      "totalCost": 2.0431975,
       "modelBreakdowns": [
         {
           "modelName": "claude-opus-5",
-          "cost": 1.0655225,
+          "cost": 2.0431975,
           "totalTokens": 0,
-          "inputTokens": 18,
-          "outputTokens": 6094,
-          "cacheCreationTokens": 60239,
-          "cacheReadTokens": 621385,
+          "inputTokens": 48,
+          "outputTokens": 9810,
+          "cacheCreationTokens": 101921,
+          "cacheReadTokens": 1556995,
+          "totalCost": 0
+        }
+      ]
+    },
+    {
+      "period": "2026-09-08",
+      "totalTokens": 1213166,
+      "inputTokens": 30,
+      "outputTokens": 8462,
+      "cacheCreationTokens": 63290,
+      "cacheReadTokens": 1141384,
+      "totalCost": 1.4152920000000002,
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-opus-5",
+          "cost": 1.4152920000000002,
+          "totalTokens": 0,
+          "inputTokens": 30,
+          "outputTokens": 8462,
+          "cacheCreationTokens": 63290,
+          "cacheReadTokens": 1141384,
           "totalCost": 0
         }
       ]
