@@ -1,14 +1,14 @@
 {
   "version": 2,
   "device": "MacBookAir15",
-  "updatedAt": "2026-09-07T01:00:15.744Z",
+  "updatedAt": "2026-09-08T01:01:21.558Z",
   "totals": {
-    "totalTokens": 8116492922,
-    "inputTokens": 1339855,
-    "outputTokens": 32376338,
-    "cacheCreationTokens": 205978138,
-    "cacheReadTokens": 7876798591,
-    "totalCost": 8019.184535350001
+    "totalTokens": 8414625432,
+    "inputTokens": 1353601,
+    "outputTokens": 33746621,
+    "cacheCreationTokens": 217134116,
+    "cacheReadTokens": 8162391094,
+    "totalCost": 8291.544488600002
   },
   "daily": [
     {
@@ -1465,41 +1465,92 @@
     },
     {
       "period": "2026-09-07",
-      "totalTokens": 119816601,
-      "inputTokens": 4726,
-      "outputTokens": 484379,
-      "cacheCreationTokens": 3613289,
-      "cacheReadTokens": 115714207,
-      "totalCost": 101.48859010000008,
+      "totalTokens": 397981540,
+      "inputTokens": 17246,
+      "outputTokens": 1640787,
+      "cacheCreationTokens": 13766091,
+      "cacheReadTokens": 382557416,
+      "totalCost": 340.4116481500005,
       "modelBreakdowns": [
         {
           "modelName": "claude-opus-5",
-          "cost": 50.38352199999994,
+          "cost": 157.51921725000005,
           "totalTokens": 0,
-          "inputTokens": 1274,
-          "outputTokens": 218830,
-          "cacheCreationTokens": 2308919,
-          "cacheReadTokens": 60527739,
+          "inputTokens": 3266,
+          "outputTokens": 685814,
+          "cacheCreationTokens": 8822471,
+          "cacheReadTokens": 164170412,
           "totalCost": 0
         },
         {
           "modelName": "claude-fable-5-1",
-          "cost": 50.304062499999986,
+          "cost": 179.17792925000018,
           "totalTokens": 0,
-          "inputTokens": 3416,
-          "outputTokens": 261108,
-          "cacheCreationTokens": 1189446,
-          "cacheReadTokens": 53702330,
+          "inputTokens": 13610,
+          "outputTokens": 936730,
+          "cacheCreationTokens": 4107355,
+          "cacheReadTokens": 210136997,
           "totalCost": 0
         },
         {
           "modelName": "claude-sonnet-5",
-          "cost": 0.8010056000000001,
+          "cost": 3.2252799000000003,
           "totalTokens": 0,
-          "inputTokens": 36,
-          "outputTokens": 4441,
-          "cacheCreationTokens": 114924,
-          "cacheReadTokens": 1484138,
+          "inputTokens": 182,
+          "outputTokens": 16913,
+          "cacheCreationTokens": 525924,
+          "cacheReadTokens": 7305432,
+          "totalCost": 0
+        },
+        {
+          "modelName": "claude-haiku-4-5-20251001",
+          "cost": 0.4892217500000001,
+          "totalTokens": 0,
+          "inputTokens": 188,
+          "outputTokens": 1330,
+          "cacheCreationTokens": 310341,
+          "cacheReadTokens": 944575,
+          "totalCost": 0
+        }
+      ]
+    },
+    {
+      "period": "2026-09-08",
+      "totalTokens": 19967571,
+      "inputTokens": 1226,
+      "outputTokens": 213875,
+      "cacheCreationTokens": 1003176,
+      "cacheReadTokens": 18749294,
+      "totalCost": 33.43689520000001,
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-fable-5-1",
+          "cost": 33.060060250000014,
+          "totalTokens": 0,
+          "inputTokens": 1188,
+          "outputTokens": 212184,
+          "cacheCreationTokens": 894205,
+          "cacheReadTokens": 18219521,
+          "totalCost": 0
+        },
+        {
+          "modelName": "claude-sonnet-5",
+          "cost": 0.2880988,
+          "totalTokens": 0,
+          "inputTokens": 12,
+          "outputTokens": 1309,
+          "cacheCreationTokens": 46802,
+          "cacheReadTokens": 438884,
+          "totalCost": 0
+        },
+        {
+          "modelName": "claude-haiku-4-5-20251001",
+          "cost": 0.08873615,
+          "totalTokens": 0,
+          "inputTokens": 26,
+          "outputTokens": 382,
+          "cacheCreationTokens": 62169,
+          "cacheReadTokens": 90889,
           "totalCost": 0
         }
       ]
