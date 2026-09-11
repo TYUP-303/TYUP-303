@@ -1,14 +1,14 @@
 {
   "version": 2,
   "device": "SSAFY",
-  "updatedAt": "2026-09-11T03:00:10.699Z",
+  "updatedAt": "2026-09-11T07:39:01.837Z",
   "totals": {
-    "totalTokens": 1007645581,
-    "inputTokens": 49951,
-    "outputTokens": 4885743,
-    "cacheCreationTokens": 24446181,
-    "cacheReadTokens": 978263706,
-    "totalCost": 760.5058227999996
+    "totalTokens": 1011118333,
+    "inputTokens": 50895,
+    "outputTokens": 4906037,
+    "cacheCreationTokens": 24540700,
+    "cacheReadTokens": 981620701,
+    "totalCost": 764.2432677999996
   },
   "daily": [
     {
@@ -520,31 +520,31 @@
     },
     {
       "period": "2026-09-11",
-      "totalTokens": 11536767,
-      "inputTokens": 2648,
-      "outputTokens": 80327,
-      "cacheCreationTokens": 286116,
-      "cacheReadTokens": 11167676,
-      "totalCost": 11.336120499999996,
+      "totalTokens": 15009519,
+      "inputTokens": 3592,
+      "outputTokens": 100621,
+      "cacheCreationTokens": 380635,
+      "cacheReadTokens": 14524671,
+      "totalCost": 15.073565499999994,
       "modelBreakdowns": [
         {
           "modelName": "claude-fable-5-1",
-          "cost": 9.593017499999998,
+          "cost": 13.010774999999997,
           "totalTokens": 0,
-          "inputTokens": 2386,
-          "outputTokens": 74129,
-          "cacheCreationTokens": 162242,
-          "cacheReadTokens": 10471470,
+          "inputTokens": 3230,
+          "outputTokens": 90970,
+          "cacheCreationTokens": 253699,
+          "cacheReadTokens": 13423980,
           "totalCost": 0
         },
         {
           "modelName": "claude-opus-5",
-          "cost": 1.7431029999999998,
+          "cost": 2.0627905,
           "totalTokens": 0,
-          "inputTokens": 262,
-          "outputTokens": 6198,
-          "cacheCreationTokens": 123874,
-          "cacheReadTokens": 696206,
+          "inputTokens": 362,
+          "outputTokens": 9651,
+          "cacheCreationTokens": 126936,
+          "cacheReadTokens": 1100691,
           "totalCost": 0
         }
       ]
