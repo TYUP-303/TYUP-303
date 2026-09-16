@@ -1,14 +1,14 @@
 {
   "version": 2,
   "device": "SSAFY",
-  "updatedAt": "2026-09-15T03:00:11.529Z",
+  "updatedAt": "2026-09-16T03:00:09.370Z",
   "totals": {
-    "totalTokens": 1022107658,
-    "inputTokens": 51035,
-    "outputTokens": 5044285,
-    "cacheCreationTokens": 24843201,
-    "cacheReadTokens": 992169137,
-    "totalCost": 774.8650170499996
+    "totalTokens": 1023202035,
+    "inputTokens": 51395,
+    "outputTokens": 5052634,
+    "cacheCreationTokens": 24893032,
+    "cacheReadTokens": 993204974,
+    "totalCost": 776.5416462999996
   },
   "daily": [
     {
@@ -566,6 +566,27 @@
           "outputTokens": 138248,
           "cacheCreationTokens": 302501,
           "cacheReadTokens": 10548436,
+          "totalCost": 0
+        }
+      ]
+    },
+    {
+      "period": "2026-09-16",
+      "totalTokens": 1094377,
+      "inputTokens": 360,
+      "outputTokens": 8349,
+      "cacheCreationTokens": 49831,
+      "cacheReadTokens": 1035837,
+      "totalCost": 1.6766292500000002,
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-fable-5-1",
+          "cost": 1.6766292500000002,
+          "totalTokens": 0,
+          "inputTokens": 360,
+          "outputTokens": 8349,
+          "cacheCreationTokens": 49831,
+          "cacheReadTokens": 1035837,
           "totalCost": 0
         }
       ]
