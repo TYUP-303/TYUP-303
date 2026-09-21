@@ -1,14 +1,14 @@
 {
   "version": 2,
   "device": "SSAFY",
-  "updatedAt": "2026-09-18T03:00:13.885Z",
+  "updatedAt": "2026-09-21T03:00:14.941Z",
   "totals": {
-    "totalTokens": 1128476418,
-    "inputTokens": 105858,
-    "outputTokens": 5695632,
+    "totalTokens": 1128877871,
+    "inputTokens": 135260,
+    "outputTokens": 5700579,
     "cacheCreationTokens": 27486840,
-    "cacheReadTokens": 1095185889,
-    "totalCost": 873.1022932999995
+    "cacheReadTokens": 1095552993,
+    "totalCost": 874.0107672999994
   },
   "daily": [
     {
@@ -661,12 +661,35 @@
           "totalCost": 0
         }
       ]
+    },
+    {
+      "period": "2026-09-21",
+      "totalTokens": 401453,
+      "inputTokens": 29402,
+      "outputTokens": 4947,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 367104,
+      "totalCost": 0.908474,
+      "modelBreakdowns": [
+        {
+          "modelName": "gpt-6-astra",
+          "cost": 0.908474,
+          "totalTokens": 0,
+          "inputTokens": 29402,
+          "outputTokens": 4947,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 367104,
+          "totalCost": 0
+        }
+      ]
     }
   ],
   "toolDaily": {
     "Gemini": {},
     "Copilot": {},
-    "Codex": {}
+    "Codex": {
+      "undefined": 0.908474
+    }
   },
   "toolLegacy": {}
 }
