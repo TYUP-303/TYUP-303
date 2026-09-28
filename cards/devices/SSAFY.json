@@ -1,14 +1,14 @@
 {
   "version": 2,
   "device": "SSAFY",
-  "updatedAt": "2026-09-23T03:00:11.418Z",
+  "updatedAt": "2026-09-28T03:00:15.015Z",
   "totals": {
-    "totalTokens": 1173128131,
-    "inputTokens": 2594993,
-    "outputTokens": 6034466,
+    "totalTokens": 1186041262,
+    "inputTokens": 3115299,
+    "outputTokens": 6078363,
     "cacheCreationTokens": 27486840,
-    "cacheReadTokens": 1137009633,
-    "totalCost": 943.6725695399995
+    "cacheReadTokens": 1149358561,
+    "totalCost": 960.0585379799994
   },
   "daily": [
     {
@@ -726,31 +726,31 @@
     },
     {
       "period": "2026-09-23",
-      "totalTokens": 3964355,
-      "inputTokens": 414374,
-      "outputTokens": 49949,
+      "totalTokens": 16877486,
+      "inputTokens": 934680,
+      "outputTokens": 93846,
       "cacheCreationTokens": 0,
-      "cacheReadTokens": 3500032,
-      "totalCost": 10.04692808,
+      "cacheReadTokens": 15848960,
+      "totalCost": 26.432896520000003,
       "modelBreakdowns": [
         {
           "modelName": "gpt-6-astra",
-          "cost": 10.044978,
+          "cost": 26.361824000000002,
           "totalTokens": 0,
-          "inputTokens": 405866,
-          "outputTokens": 49823,
+          "inputTokens": 729025,
+          "outputTokens": 91107,
           "cacheCreationTokens": 0,
-          "cacheReadTokens": 3495168,
+          "cacheReadTokens": 14516224,
           "totalCost": 0
         },
         {
           "modelName": "gpt-5.6-luna",
-          "cost": 0.0019500799999999999,
+          "cost": 0.07107252,
           "totalTokens": 0,
-          "inputTokens": 8508,
-          "outputTokens": 126,
+          "inputTokens": 205655,
+          "outputTokens": 2739,
           "cacheCreationTokens": 0,
-          "cacheReadTokens": 4864,
+          "cacheReadTokens": 1332736,
           "totalCost": 0
         }
       ]
@@ -760,7 +760,7 @@
     "Gemini": {},
     "Copilot": {},
     "Codex": {
-      "undefined": 10.9287796
+      "undefined": 26.432896520000003
     }
   },
   "toolLegacy": {}
