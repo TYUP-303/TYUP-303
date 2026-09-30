@@ -1,14 +1,14 @@
 {
   "version": 2,
   "device": "SSAFY",
-  "updatedAt": "2026-09-28T03:00:15.015Z",
+  "updatedAt": "2026-09-30T03:00:11.971Z",
   "totals": {
-    "totalTokens": 1186041262,
-    "inputTokens": 3115299,
-    "outputTokens": 6078363,
-    "cacheCreationTokens": 27486840,
-    "cacheReadTokens": 1149358561,
-    "totalCost": 960.0585379799994
+    "totalTokens": 1187375793,
+    "inputTokens": 3245587,
+    "outputTokens": 6091406,
+    "cacheCreationTokens": 27584727,
+    "cacheReadTokens": 1150444443,
+    "totalCost": 961.8266914799995
   },
   "daily": [
     {
@@ -751,6 +751,88 @@
           "outputTokens": 2739,
           "cacheCreationTokens": 0,
           "cacheReadTokens": 1332736,
+          "totalCost": 0
+        }
+      ]
+    },
+    {
+      "period": "2026-09-28",
+      "totalTokens": 1007553,
+      "inputTokens": 39746,
+      "outputTokens": 10714,
+      "cacheCreationTokens": 97887,
+      "cacheReadTokens": 855295,
+      "totalCost": 1.4710800999999998,
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-opus-5-5",
+          "cost": 0.656146,
+          "totalTokens": 0,
+          "inputTokens": 14,
+          "outputTokens": 5599,
+          "cacheCreationTokens": 56198,
+          "cacheReadTokens": 472630,
+          "totalCost": 0
+        },
+        {
+          "modelName": "claude-opus-5",
+          "cost": 0.6530585,
+          "totalTokens": 0,
+          "inputTokens": 10,
+          "outputTokens": 3818,
+          "cacheCreationTokens": 41689,
+          "cacheReadTokens": 281337,
+          "totalCost": 0
+        },
+        {
+          "modelName": "gemini-3.1-pro",
+          "cost": 0.16187559999999998,
+          "totalTokens": 0,
+          "inputTokens": 39587,
+          "outputTokens": 1292,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 101328,
+          "totalCost": 0
+        },
+        {
+          "modelName": "model_placeholder_m50",
+          "cost": 0,
+          "totalTokens": 0,
+          "inputTokens": 135,
+          "outputTokens": 5,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "totalCost": 0
+        }
+      ]
+    },
+    {
+      "period": "2026-09-30",
+      "totalTokens": 326978,
+      "inputTokens": 90542,
+      "outputTokens": 2329,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 230587,
+      "totalCost": 0.29707340000000004,
+      "modelBreakdowns": [
+        {
+          "modelName": "gemini-3.1-pro",
+          "cost": 0.29707340000000004,
+          "totalTokens": 0,
+          "inputTokens": 90420,
+          "outputTokens": 2323,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 230587,
+          "totalCost": 0
+        },
+        {
+          "modelName": "model_placeholder_m50",
+          "cost": 0,
+          "totalTokens": 0,
+          "inputTokens": 122,
+          "outputTokens": 6,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
           "totalCost": 0
         }
       ]
