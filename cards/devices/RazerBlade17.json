@@ -1,14 +1,14 @@
 {
   "version": 2,
   "device": "RazerBlade17",
-  "updatedAt": "2026-10-09T12:00:20.815Z",
+  "updatedAt": "2026-10-10T12:00:21.879Z",
   "totals": {
-    "totalTokens": 234280127,
-    "inputTokens": 12113978,
-    "outputTokens": 1531446,
-    "cacheCreationTokens": 5621082,
-    "cacheReadTokens": 214611618,
-    "totalCost": 191.29367394099995
+    "totalTokens": 255233724,
+    "inputTokens": 12114126,
+    "outputTokens": 1573658,
+    "cacheCreationTokens": 6297024,
+    "cacheReadTokens": 234846913,
+    "totalCost": 201.59310094099996
   },
   "daily": [
     {
@@ -624,6 +624,27 @@
           "outputTokens": 69119,
           "cacheCreationTokens": 547718,
           "cacheReadTokens": 26761526,
+          "totalCost": 0
+        }
+      ]
+    },
+    {
+      "period": "2026-10-10",
+      "totalTokens": 20953597,
+      "inputTokens": 148,
+      "outputTokens": 42212,
+      "cacheCreationTokens": 675942,
+      "cacheReadTokens": 20235295,
+      "totalCost": 10.299427000000001,
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-opus-5-5",
+          "cost": 10.299427000000001,
+          "totalTokens": 0,
+          "inputTokens": 148,
+          "outputTokens": 42212,
+          "cacheCreationTokens": 675942,
+          "cacheReadTokens": 20235295,
           "totalCost": 0
         }
       ]
