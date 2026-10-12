@@ -1,14 +1,14 @@
 {
   "version": 2,
   "device": "SSAFY",
-  "updatedAt": "2026-10-07T03:00:13.369Z",
+  "updatedAt": "2026-10-12T03:00:19.361Z",
   "totals": {
-    "totalTokens": 1187375793,
-    "inputTokens": 3245587,
-    "outputTokens": 6091406,
+    "totalTokens": 1188048437,
+    "inputTokens": 3540467,
+    "outputTokens": 6100530,
     "cacheCreationTokens": 27584727,
-    "cacheReadTokens": 1150444443,
-    "totalCost": 961.8266914799995
+    "cacheReadTokens": 1150813083,
+    "totalCost": 965.6003314799995
   },
   "daily": [
     {
@@ -685,21 +685,21 @@
     },
     {
       "period": "2026-09-22",
-      "totalTokens": 31386864,
-      "inputTokens": 1139032,
-      "outputTokens": 198424,
+      "totalTokens": 31619057,
+      "inputTokens": 1143222,
+      "outputTokens": 201531,
       "cacheCreationTokens": 0,
-      "cacheReadTokens": 30049408,
-      "totalCost": 38.36870416000001,
+      "cacheReadTokens": 30274304,
+      "totalCost": 38.79085016000001,
       "modelBreakdowns": [
         {
           "modelName": "gpt-6-astra",
-          "cost": 38.09624,
+          "cost": 38.51838600000001,
           "totalTokens": 0,
-          "inputTokens": 878556,
-          "outputTokens": 162572,
+          "inputTokens": 882746,
+          "outputTokens": 165679,
           "cacheCreationTokens": 0,
-          "cacheReadTokens": 21182080,
+          "cacheReadTokens": 21406976,
           "totalCost": 0
         },
         {
@@ -726,21 +726,21 @@
     },
     {
       "period": "2026-09-23",
-      "totalTokens": 16877486,
-      "inputTokens": 934680,
-      "outputTokens": 93846,
+      "totalTokens": 17317937,
+      "inputTokens": 1225370,
+      "outputTokens": 99863,
       "cacheCreationTokens": 0,
-      "cacheReadTokens": 15848960,
-      "totalCost": 26.432896520000003,
+      "cacheReadTokens": 15992704,
+      "totalCost": 29.784390520000002,
       "modelBreakdowns": [
         {
           "modelName": "gpt-6-astra",
-          "cost": 26.361824000000002,
+          "cost": 29.713318,
           "totalTokens": 0,
-          "inputTokens": 729025,
-          "outputTokens": 91107,
+          "inputTokens": 1019715,
+          "outputTokens": 97124,
           "cacheCreationTokens": 0,
-          "cacheReadTokens": 14516224,
+          "cacheReadTokens": 14659968,
           "totalCost": 0
         },
         {
@@ -842,7 +842,7 @@
     "Gemini": {},
     "Copilot": {},
     "Codex": {
-      "undefined": 26.432896520000003
+      "undefined": 29.784390520000002
     }
   },
   "toolLegacy": {}
