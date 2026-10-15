@@ -1,14 +1,14 @@
 {
   "version": 2,
   "device": "SSAFY",
-  "updatedAt": "2026-10-12T03:00:19.361Z",
+  "updatedAt": "2026-10-15T03:00:22.240Z",
   "totals": {
-    "totalTokens": 1188048437,
-    "inputTokens": 3540467,
-    "outputTokens": 6100530,
-    "cacheCreationTokens": 27584727,
-    "cacheReadTokens": 1150813083,
-    "totalCost": 965.6003314799995
+    "totalTokens": 1204984635,
+    "inputTokens": 3540671,
+    "outputTokens": 6154605,
+    "cacheCreationTokens": 27796234,
+    "cacheReadTokens": 1167483495,
+    "totalCost": 971.7087858799995
   },
   "daily": [
     {
@@ -833,6 +833,27 @@
           "outputTokens": 6,
           "cacheCreationTokens": 0,
           "cacheReadTokens": 0,
+          "totalCost": 0
+        }
+      ]
+    },
+    {
+      "period": "2026-10-15",
+      "totalTokens": 16936198,
+      "inputTokens": 204,
+      "outputTokens": 54075,
+      "cacheCreationTokens": 211507,
+      "cacheReadTokens": 16670412,
+      "totalCost": 6.108454400000001,
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-opus-5-5",
+          "cost": 6.108454400000001,
+          "totalTokens": 0,
+          "inputTokens": 204,
+          "outputTokens": 54075,
+          "cacheCreationTokens": 211507,
+          "cacheReadTokens": 16670412,
           "totalCost": 0
         }
       ]
