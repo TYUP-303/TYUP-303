@@ -1,14 +1,14 @@
 {
   "version": 2,
   "device": "RazerBlade17",
-  "updatedAt": "2026-10-20T12:00:22.110Z",
+  "updatedAt": "2026-10-21T12:00:22.326Z",
   "totals": {
-    "totalTokens": 429933762,
-    "inputTokens": 21207176,
-    "outputTokens": 3824760,
-    "cacheCreationTokens": 11768433,
-    "cacheReadTokens": 392947170,
-    "totalCost": 313.889523141
+    "totalTokens": 445606238,
+    "inputTokens": 28423602,
+    "outputTokens": 5508239,
+    "cacheCreationTokens": 12370076,
+    "cacheReadTokens": 399253075,
+    "totalCost": 330.90155904999995
   },
   "daily": [
     {
@@ -241,7 +241,7 @@
       "outputTokens": 17935,
       "cacheCreationTokens": 0,
       "cacheReadTokens": 2591981,
-      "totalCost": 1.478910591,
+      "totalCost": 1.5414659999999998,
       "modelBreakdowns": [
         {
           "modelName": "gemini-3.1-pro",
@@ -275,7 +275,7 @@
         },
         {
           "modelName": "gpt-oss-120b-medium",
-          "cost": 0.022600540999999995,
+          "cost": 0.08515595000000001,
           "totalTokens": 0,
           "inputTokens": 235357,
           "outputTokens": 3708,
@@ -859,18 +859,18 @@
       "totalTokens": 49308567,
       "inputTokens": 8872436,
       "outputTokens": 1812981,
-      "cacheCreationTokens": 986126,
+      "cacheCreationTokens": 1122934,
       "cacheReadTokens": 37637024,
       "totalCost": 31.53878054999999,
       "modelBreakdowns": [
         {
           "modelName": "claude-opus-5-5",
-          "cost": 18.673105199999995,
+          "cost": 19.827305599999995,
           "totalTokens": 0,
-          "inputTokens": 454,
-          "outputTokens": 168957,
-          "cacheCreationTokens": 986126,
-          "cacheReadTokens": 37015706,
+          "inputTokens": 458,
+          "outputTokens": 169974,
+          "cacheCreationTokens": 1122934,
+          "cacheReadTokens": 37212608,
           "totalCost": 0
         },
         {
@@ -881,6 +881,37 @@
           "outputTokens": 1644024,
           "cacheCreationTokens": 0,
           "cacheReadTokens": 621318,
+          "totalCost": 0
+        }
+      ]
+    },
+    {
+      "period": "2026-10-21",
+      "totalTokens": 15672476,
+      "inputTokens": 7216426,
+      "outputTokens": 1683479,
+      "cacheCreationTokens": 464835,
+      "cacheReadTokens": 6305905,
+      "totalCost": 16.949480499999993,
+      "modelBreakdowns": [
+        {
+          "modelName": "gemini-3.8-flash-low",
+          "cost": 11.711019899999993,
+          "totalTokens": 0,
+          "inputTokens": 7216354,
+          "outputTokens": 1663290,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 727342,
+          "totalCost": 0
+        },
+        {
+          "modelName": "claude-opus-5-5",
+          "cost": 5.238460599999998,
+          "totalTokens": 0,
+          "inputTokens": 72,
+          "outputTokens": 20189,
+          "cacheCreationTokens": 464835,
+          "cacheReadTokens": 5578563,
           "totalCost": 0
         }
       ]
