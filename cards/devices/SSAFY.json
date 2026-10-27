@@ -3,12 +3,12 @@
   "device": "SSAFY",
   "updatedAt": "2026-10-23T05:09:52.631Z",
   "totals": {
-    "totalTokens": 1265899682,
-    "inputTokens": 3543585,
-    "outputTokens": 6417871,
+    "totalTokens": 1207662194,
+    "inputTokens": 239264,
+    "outputTokens": 6026016,
     "cacheCreationTokens": 29525216,
-    "cacheReadTokens": 1226403380,
-    "totalCost": 1010.7712401799993
+    "cacheReadTokens": 1171862068,
+    "totalCost": 920.0413554999996
   },
   "daily": [
     {
@@ -631,7 +631,7 @@
         },
         {
           "modelName": "gemini-3.1-flash-lite",
-          "cost": 0.00009874999999999999,
+          "cost": 9.874999999999999e-05,
           "totalTokens": 0,
           "inputTokens": 311,
           "outputTokens": 14,
@@ -668,99 +668,6 @@
           "outputTokens": 67587,
           "cacheCreationTokens": 375853,
           "cacheReadTokens": 20949253,
-          "totalCost": 0
-        }
-      ]
-    },
-    {
-      "period": "2026-09-21",
-      "totalTokens": 9300494,
-      "inputTokens": 935729,
-      "outputTokens": 90461,
-      "cacheCreationTokens": 0,
-      "cacheReadTokens": 8274304,
-      "totalCost": 22.154644,
-      "modelBreakdowns": [
-        {
-          "modelName": "gpt-6-astra",
-          "cost": 22.154644,
-          "totalTokens": 0,
-          "inputTokens": 935729,
-          "outputTokens": 90461,
-          "cacheCreationTokens": 0,
-          "cacheReadTokens": 8274304,
-          "totalCost": 0
-        }
-      ]
-    },
-    {
-      "period": "2026-09-22",
-      "totalTokens": 31619057,
-      "inputTokens": 1143222,
-      "outputTokens": 201531,
-      "cacheCreationTokens": 0,
-      "cacheReadTokens": 30274304,
-      "totalCost": 38.79085016000001,
-      "modelBreakdowns": [
-        {
-          "modelName": "gpt-6-astra",
-          "cost": 38.51838600000001,
-          "totalTokens": 0,
-          "inputTokens": 882746,
-          "outputTokens": 165679,
-          "cacheCreationTokens": 0,
-          "cacheReadTokens": 21406976,
-          "totalCost": 0
-        },
-        {
-          "modelName": "gpt-5.6-luna",
-          "cost": 0.01580856,
-          "totalTokens": 0,
-          "inputTokens": 60466,
-          "outputTokens": 1078,
-          "cacheCreationTokens": 0,
-          "cacheReadTokens": 121088,
-          "totalCost": 0
-        },
-        {
-          "modelName": "gpt-reserve",
-          "cost": 0.2566556,
-          "totalTokens": 0,
-          "inputTokens": 200010,
-          "outputTokens": 34774,
-          "cacheCreationTokens": 0,
-          "cacheReadTokens": 8746240,
-          "totalCost": 0
-        }
-      ]
-    },
-    {
-      "period": "2026-09-23",
-      "totalTokens": 17317937,
-      "inputTokens": 1225370,
-      "outputTokens": 99863,
-      "cacheCreationTokens": 0,
-      "cacheReadTokens": 15992704,
-      "totalCost": 29.784390520000002,
-      "modelBreakdowns": [
-        {
-          "modelName": "gpt-6-astra",
-          "cost": 29.713318,
-          "totalTokens": 0,
-          "inputTokens": 1019715,
-          "outputTokens": 97124,
-          "cacheCreationTokens": 0,
-          "cacheReadTokens": 14659968,
-          "totalCost": 0
-        },
-        {
-          "modelName": "gpt-5.6-luna",
-          "cost": 0.07107252,
-          "totalTokens": 0,
-          "inputTokens": 205655,
-          "outputTokens": 2739,
-          "cacheCreationTokens": 0,
-          "cacheReadTokens": 1332736,
           "totalCost": 0
         }
       ]
@@ -816,7 +723,7 @@
         },
         {
           "modelName": "gemini-3.1-flash-lite",
-          "cost": 0.00004125,
+          "cost": 4.125e-05,
           "totalTokens": 0,
           "inputTokens": 135,
           "outputTokens": 5,
@@ -857,7 +764,7 @@
         },
         {
           "modelName": "gemini-3.1-flash-lite",
-          "cost": 0.0000395,
+          "cost": 3.95e-05,
           "totalTokens": 0,
           "inputTokens": 122,
           "outputTokens": 6,
@@ -985,10 +892,7 @@
   ],
   "toolDaily": {
     "Gemini": {},
-    "Copilot": {},
-    "Codex": {
-      "undefined": 29.784390520000002
-    }
+    "Copilot": {}
   },
   "toolLegacy": {}
 }
