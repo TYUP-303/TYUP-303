@@ -1,14 +1,14 @@
 {
   "version": 2,
   "device": "SSAFY",
-  "updatedAt": "2026-10-23T05:09:52.631Z",
+  "updatedAt": "2026-10-27T03:00:06.663Z",
   "totals": {
-    "totalTokens": 1207662194,
-    "inputTokens": 239264,
-    "outputTokens": 6026016,
-    "cacheCreationTokens": 29525216,
-    "cacheReadTokens": 1171862068,
-    "totalCost": 920.0413554999996
+    "totalTokens": 1257075357,
+    "inputTokens": 239733,
+    "outputTokens": 6206826,
+    "cacheCreationTokens": 30437657,
+    "cacheReadTokens": 1220181511,
+    "totalCost": 938.2051965999993
   },
   "daily": [
     {
@@ -631,7 +631,7 @@
         },
         {
           "modelName": "gemini-3.1-flash-lite",
-          "cost": 9.874999999999999e-05,
+          "cost": 0.00009874999999999999,
           "totalTokens": 0,
           "inputTokens": 311,
           "outputTokens": 14,
@@ -723,7 +723,7 @@
         },
         {
           "modelName": "gemini-3.1-flash-lite",
-          "cost": 4.125e-05,
+          "cost": 0.00004125,
           "totalTokens": 0,
           "inputTokens": 135,
           "outputTokens": 5,
@@ -764,7 +764,7 @@
         },
         {
           "modelName": "gemini-3.1-flash-lite",
-          "cost": 3.95e-05,
+          "cost": 0.0000395,
           "totalTokens": 0,
           "inputTokens": 122,
           "outputTokens": 6,
@@ -888,11 +888,63 @@
           "totalCost": 0
         }
       ]
+    },
+    {
+      "period": "2026-10-27",
+      "totalTokens": 49413163,
+      "inputTokens": 469,
+      "outputTokens": 180810,
+      "cacheCreationTokens": 912441,
+      "cacheReadTokens": 48319443,
+      "totalCost": 18.163841100000003,
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-opus-5-5",
+          "cost": 17.0115222,
+          "totalTokens": 0,
+          "inputTokens": 314,
+          "outputTokens": 164187,
+          "cacheCreationTokens": 566730,
+          "cacheReadTokens": 45963431,
+          "totalCost": 0
+        },
+        {
+          "modelName": "claude-sonnet-5",
+          "cost": 0.5781796,
+          "totalTokens": 0,
+          "inputTokens": 8,
+          "outputTokens": 3790,
+          "cacheCreationTokens": 119090,
+          "cacheReadTokens": 319518,
+          "totalCost": 0
+        },
+        {
+          "modelName": "claude-haiku-4-5-20251001",
+          "cost": 0.42707520000000004,
+          "totalTokens": 0,
+          "inputTokens": 139,
+          "outputTokens": 9536,
+          "cacheCreationTokens": 109479,
+          "cacheReadTokens": 1602982,
+          "totalCost": 0
+        },
+        {
+          "modelName": "claude-haiku-5-5",
+          "cost": 0.14706409999999998,
+          "totalTokens": 0,
+          "inputTokens": 8,
+          "outputTokens": 3297,
+          "cacheCreationTokens": 117142,
+          "cacheReadTokens": 433512,
+          "totalCost": 0
+        }
+      ]
     }
   ],
   "toolDaily": {
     "Gemini": {},
-    "Copilot": {}
+    "Copilot": {},
+    "Codex": {}
   },
   "toolLegacy": {}
 }
