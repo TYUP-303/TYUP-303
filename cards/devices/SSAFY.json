@@ -1,14 +1,14 @@
 {
   "version": 2,
   "device": "SSAFY",
-  "updatedAt": "2026-11-06T03:00:14.590Z",
+  "updatedAt": "2026-11-06T08:14:20.996Z",
   "totals": {
-    "totalTokens": 1770429000,
-    "inputTokens": 1814783,
-    "outputTokens": 8485212,
-    "cacheCreationTokens": 42649597,
-    "cacheReadTokens": 1717381258,
-    "totalCost": 1196.7762937999994
+    "totalTokens": 1892568703,
+    "inputTokens": 1816287,
+    "outputTokens": 8884273,
+    "cacheCreationTokens": 44333805,
+    "cacheReadTokens": 1837436188,
+    "totalCost": 1246.6331883499995
   },
   "daily": [
     {
@@ -1159,31 +1159,31 @@
     },
     {
       "period": "2026-11-06",
-      "totalTokens": 45395398,
-      "inputTokens": 872,
-      "outputTokens": 170137,
-      "cacheCreationTokens": 1093112,
-      "cacheReadTokens": 44131277,
-      "totalCost": 22.113978899999996,
+      "totalTokens": 167535101,
+      "inputTokens": 2376,
+      "outputTokens": 569198,
+      "cacheCreationTokens": 2777320,
+      "cacheReadTokens": 164186207,
+      "totalCost": 71.97087345,
       "modelBreakdowns": [
         {
           "modelName": "claude-opus-5-5",
-          "cost": 19.47157140000001,
+          "cost": 58.73525320000002,
           "totalTokens": 0,
-          "inputTokens": 640,
-          "outputTokens": 152175,
-          "cacheCreationTokens": 969137,
-          "cacheReadTokens": 43362077,
+          "inputTokens": 1316,
+          "outputTokens": 492441,
+          "cacheCreationTokens": 2109768,
+          "cacheReadTokens": 160015126,
           "totalCost": 0
         },
         {
           "modelName": "claude-fable-5-1",
-          "cost": 2.6424075000000005,
+          "cost": 13.23562025,
           "totalTokens": 0,
-          "inputTokens": 232,
-          "outputTokens": 17962,
-          "cacheCreationTokens": 123975,
-          "cacheReadTokens": 769200,
+          "inputTokens": 1060,
+          "outputTokens": 76757,
+          "cacheCreationTokens": 667552,
+          "cacheReadTokens": 4171081,
           "totalCost": 0
         }
       ]
