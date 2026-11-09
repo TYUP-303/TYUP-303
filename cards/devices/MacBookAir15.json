@@ -1,14 +1,14 @@
 {
   "version": 2,
   "device": "MacBookAir15",
-  "updatedAt": "2026-11-08T01:00:14.154Z",
+  "updatedAt": "2026-11-09T01:35:55.085Z",
   "totals": {
-    "totalTokens": 21776694095,
-    "inputTokens": 29665928,
-    "outputTokens": 81920521,
-    "cacheCreationTokens": 576159562,
-    "cacheReadTokens": 21091820323,
-    "totalCost": 16496.006905655002
+    "totalTokens": 21827087295,
+    "inputTokens": 29974443,
+    "outputTokens": 82062141,
+    "cacheCreationTokens": 577219332,
+    "cacheReadTokens": 21140703618,
+    "totalCost": 16516.635558780003
   },
   "daily": [
     {
@@ -4511,6 +4511,37 @@
           "outputTokens": 31197,
           "cacheCreationTokens": 0,
           "cacheReadTokens": 114621,
+          "totalCost": 0
+        }
+      ]
+    },
+    {
+      "period": "2026-11-09",
+      "totalTokens": 50393200,
+      "inputTokens": 308515,
+      "outputTokens": 141620,
+      "cacheCreationTokens": 1059770,
+      "cacheReadTokens": 48883295,
+      "totalCost": 20.628653125000007,
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-opus-5-5",
+          "cost": 20.339657200000005,
+          "totalTokens": 0,
+          "inputTokens": 476,
+          "outputTokens": 128483,
+          "cacheCreationTokens": 1059770,
+          "cacheReadTokens": 48767256,
+          "totalCost": 0
+        },
+        {
+          "modelName": "gemini-3.8-flash-low",
+          "cost": 0.28899592500000004,
+          "totalTokens": 0,
+          "inputTokens": 308039,
+          "outputTokens": 13137,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 116039,
           "totalCost": 0
         }
       ]
