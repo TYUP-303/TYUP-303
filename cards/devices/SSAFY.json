@@ -1,14 +1,14 @@
 {
   "version": 2,
   "device": "SSAFY",
-  "updatedAt": "2026-11-09T03:22:52.410Z",
+  "updatedAt": "2026-11-10T03:00:12.016Z",
   "totals": {
-    "totalTokens": 1896599132,
-    "inputTokens": 1816339,
-    "outputTokens": 8896462,
-    "cacheCreationTokens": 44446180,
-    "cacheReadTokens": 1841342001,
-    "totalCost": 1248.5573389499996
+    "totalTokens": 1927928231,
+    "inputTokens": 2831109,
+    "outputTokens": 8960251,
+    "cacheCreationTokens": 45164878,
+    "cacheReadTokens": 1871135307,
+    "totalCost": 1258.2054486299996
   },
   "daily": [
     {
@@ -644,7 +644,7 @@
     {
       "period": "2026-09-17",
       "totalTokens": 44135191,
-      "inputTokens": 2924,
+      "inputTokens": 264388,
       "outputTokens": 275813,
       "cacheCreationTokens": 1429399,
       "cacheReadTokens": 42427055,
@@ -668,6 +668,16 @@
           "outputTokens": 67587,
           "cacheCreationTokens": 375853,
           "cacheReadTokens": 20949253,
+          "totalCost": 0
+        },
+        {
+          "modelName": "gpt-5.6-luna",
+          "cost": 0.11240888,
+          "totalTokens": 0,
+          "inputTokens": 264388,
+          "outputTokens": 4771,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 2690304,
           "totalCost": 0
         }
       ]
@@ -770,6 +780,27 @@
           "outputTokens": 6,
           "cacheCreationTokens": 0,
           "cacheReadTokens": 0,
+          "totalCost": 0
+        }
+      ]
+    },
+    {
+      "period": "2026-10-02",
+      "totalTokens": 18316582,
+      "inputTokens": 753092,
+      "outputTokens": 17506,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 17545984,
+      "totalCost": 0.52254528,
+      "modelBreakdowns": [
+        {
+          "modelName": "gpt-5.6-luna",
+          "cost": 0.52254528,
+          "totalTokens": 0,
+          "inputTokens": 753092,
+          "outputTokens": 17506,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 17545984,
           "totalCost": 0
         }
       ]
@@ -1190,21 +1221,21 @@
     },
     {
       "period": "2026-11-09",
-      "totalTokens": 952979,
-      "inputTokens": 16,
-      "outputTokens": 3373,
-      "cacheCreationTokens": 98228,
-      "cacheReadTokens": 851362,
-      "totalCost": 1.0236204,
+      "totalTokens": 13965496,
+      "inputTokens": 230,
+      "outputTokens": 49656,
+      "cacheCreationTokens": 816926,
+      "cacheReadTokens": 13098684,
+      "totalCost": 10.149184800000004,
       "modelBreakdowns": [
         {
           "modelName": "claude-opus-5-5",
-          "cost": 1.0236204,
+          "cost": 10.149184800000004,
           "totalTokens": 0,
-          "inputTokens": 16,
-          "outputTokens": 3373,
-          "cacheCreationTokens": 98228,
-          "cacheReadTokens": 851362,
+          "inputTokens": 230,
+          "outputTokens": 49656,
+          "cacheCreationTokens": 816926,
+          "cacheReadTokens": 13098684,
           "totalCost": 0
         }
       ]
@@ -1213,7 +1244,9 @@
   "toolDaily": {
     "Gemini": {},
     "Copilot": {},
-    "Codex": {}
+    "Codex": {
+      "undefined": 0.52254528
+    }
   },
   "toolLegacy": {}
 }
