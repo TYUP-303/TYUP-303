@@ -1,14 +1,14 @@
 {
   "version": 2,
   "device": "MacBookAir15",
-  "updatedAt": "2026-11-10T01:00:16.275Z",
+  "updatedAt": "2026-11-11T01:00:16.559Z",
   "totals": {
-    "totalTokens": 22290065610,
-    "inputTokens": 29995991,
-    "outputTokens": 84730780,
-    "cacheCreationTokens": 605933739,
-    "cacheReadTokens": 21572277339,
-    "totalCost": 16927.57902553
+    "totalTokens": 22380190021,
+    "inputTokens": 30630619,
+    "outputTokens": 85102911,
+    "cacheCreationTokens": 611025366,
+    "cacheReadTokens": 21656303364,
+    "totalCost": 16987.607285105
   },
   "daily": [
     {
@@ -4552,6 +4552,78 @@
           "outputTokens": 1299565,
           "cacheCreationTokens": 9944253,
           "cacheReadTokens": 82043481,
+          "totalCost": 0
+        }
+      ]
+    },
+    {
+      "period": "2026-11-10",
+      "totalTokens": 37397706,
+      "inputTokens": 634006,
+      "outputTokens": 159609,
+      "cacheCreationTokens": 2756936,
+      "cacheReadTokens": 33847155,
+      "totalCost": 30.155281374999987,
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-opus-5-5",
+          "cost": 29.44299039999999,
+          "totalTokens": 0,
+          "inputTokens": 254,
+          "outputTokens": 99091,
+          "cacheCreationTokens": 2756936,
+          "cacheReadTokens": 33713362,
+          "totalCost": 0
+        },
+        {
+          "modelName": "gemini-3.8-flash-low",
+          "cost": 0.712290975,
+          "totalTokens": 0,
+          "inputTokens": 633752,
+          "outputTokens": 60518,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 133793,
+          "totalCost": 0
+        }
+      ]
+    },
+    {
+      "period": "2026-11-11",
+      "totalTokens": 52726705,
+      "inputTokens": 622,
+      "outputTokens": 212522,
+      "cacheCreationTokens": 2334691,
+      "cacheReadTokens": 50178870,
+      "totalCost": 29.872978199999984,
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-opus-5-5",
+          "cost": 26.51853219999999,
+          "totalTokens": 0,
+          "inputTokens": 516,
+          "outputTokens": 178499,
+          "cacheCreationTokens": 1756206,
+          "cacheReadTokens": 44484201,
+          "totalCost": 0
+        },
+        {
+          "modelName": "claude-sonnet-5-5",
+          "cost": 2.0021738,
+          "totalTokens": 0,
+          "inputTokens": 98,
+          "outputTokens": 33014,
+          "cacheCreationTokens": 453652,
+          "cacheReadTokens": 5377078,
+          "totalCost": 0
+        },
+        {
+          "modelName": "claude-fable-5-2",
+          "cost": 1.3522722,
+          "totalTokens": 0,
+          "inputTokens": 8,
+          "outputTokens": 1009,
+          "cacheCreationTokens": 124833,
+          "cacheReadTokens": 317591,
           "totalCost": 0
         }
       ]
