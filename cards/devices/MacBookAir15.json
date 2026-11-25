@@ -1,14 +1,14 @@
 {
   "version": 2,
   "device": "MacBookAir15",
-  "updatedAt": "2026-11-24T01:00:36.286Z",
+  "updatedAt": "2026-11-25T01:01:15.867Z",
   "totals": {
-    "totalTokens": 24830793821,
-    "inputTokens": 48058909,
-    "outputTokens": 94630608,
-    "cacheCreationTokens": 689954600,
-    "cacheReadTokens": 23999027461,
-    "totalCost": 18422.487675830005
+    "totalTokens": 25320799318,
+    "inputTokens": 48412552,
+    "outputTokens": 97028484,
+    "cacheCreationTokens": 697902710,
+    "cacheReadTokens": 24478333329,
+    "totalCost": 18635.968760555003
   },
   "daily": [
     {
@@ -5102,12 +5102,12 @@
     },
     {
       "period": "2026-11-24",
-      "totalTokens": 22222622,
-      "inputTokens": 2968643,
-      "outputTokens": 145394,
-      "cacheCreationTokens": 837657,
-      "cacheReadTokens": 17413272,
-      "totalCost": 33.973043950000005,
+      "totalTokens": 35007813,
+      "inputTokens": 2968803,
+      "outputTokens": 179100,
+      "cacheCreationTokens": 1088744,
+      "cacheReadTokens": 29913510,
+      "totalCost": 39.156547550000006,
       "modelBreakdowns": [
         {
           "modelName": "gemini-4-neon",
@@ -5121,12 +5121,53 @@
         },
         {
           "modelName": "claude-opus-5-5",
-          "cost": 9.533728600000002,
+          "cost": 14.717232200000003,
           "totalTokens": 0,
-          "inputTokens": 62,
-          "outputTokens": 26164,
-          "cacheCreationTokens": 837657,
-          "cacheReadTokens": 11544723,
+          "inputTokens": 222,
+          "outputTokens": 59870,
+          "cacheCreationTokens": 1088744,
+          "cacheReadTokens": 24044961,
+          "totalCost": 0
+        }
+      ]
+    },
+    {
+      "period": "2026-11-25",
+      "totalTokens": 477220306,
+      "inputTokens": 353483,
+      "outputTokens": 2364170,
+      "cacheCreationTokens": 7697023,
+      "cacheReadTokens": 466805630,
+      "totalCost": 208.29758112500033,
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-opus-5-5",
+          "cost": 168.41203360000043,
+          "totalTokens": 0,
+          "inputTokens": 3066,
+          "outputTokens": 2067261,
+          "cacheCreationTokens": 5512990,
+          "cacheReadTokens": 431422858,
+          "totalCost": 0
+        },
+        {
+          "modelName": "claude-fable-5-2",
+          "cost": 39.48360939999997,
+          "totalTokens": 0,
+          "inputTokens": 386,
+          "outputTokens": 265544,
+          "cacheCreationTokens": 2184033,
+          "cacheReadTokens": 35092157,
+          "totalCost": 0
+        },
+        {
+          "modelName": "gemini-3.8-flash-low",
+          "cost": 0.4019381250000001,
+          "totalTokens": 0,
+          "inputTokens": 350031,
+          "outputTokens": 31365,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 290615,
           "totalCost": 0
         }
       ]
